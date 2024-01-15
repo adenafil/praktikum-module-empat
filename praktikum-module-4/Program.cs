@@ -18,8 +18,15 @@ namespace praktikum_module_4
 			
 			// TODO: Implement Functionality Here
 			
+			
+			Vertex vertex = new Vertex();
+			vertex.Add("1010", -1);
+			vertex.getIndexDataOfData("1010");
+			Console.WriteLine(			vertex.getIndexDataOfData("1010"));
+			
 			Console.Write("Press any key to continue . . . ");
 			Console.ReadKey(true);
+			
 		}
 	}
 }

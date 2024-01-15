@@ -1,0 +1,6 @@
+C:\Users\acern\OneDrive\Documents\SharpDevelop Projects\praktikum-module-4\praktikum-module-4\obj\Debug\praktikum-module-4.csprojResolveAssemblyReference.cache
+C:\Users\acern\OneDrive\Documents\SharpDevelop Projects\praktikum-module-4\praktikum-module-4\bin\Debug\praktikum-module-4.exe.config
+C:\Users\acern\OneDrive\Documents\SharpDevelop Projects\praktikum-module-4\praktikum-module-4\bin\Debug\praktikum-module-4.exe
+C:\Users\acern\OneDrive\Documents\SharpDevelop Projects\praktikum-module-4\praktikum-module-4\bin\Debug\praktikum-module-4.pdb
+C:\Users\acern\OneDrive\Documents\SharpDevelop Projects\praktikum-module-4\praktikum-module-4\obj\Debug\praktikum-module-4.exe
+C:\Users\acern\OneDrive\Documents\SharpDevelop Projects\praktikum-module-4\praktikum-module-4\obj\Debug\praktikum-module-4.pdb
