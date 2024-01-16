@@ -14,19 +14,24 @@ namespace praktikum_module_4
 	{
 		public static void Main(string[] args)
 		{
-			Console.WriteLine("Hello World!");
-			
-			// TODO: Implement Functionality Here
-			
-			
-			Vertex vertex = new Vertex();
-			vertex.Add("1010", -1);
-			vertex.getIndexDataOfData("1010");
-			Console.WriteLine(			vertex.getIndexDataOfData("1010"));
-			
+			Graph graph = new Graph();
+			graph.BFS(StringArrToIntArr(getInput()), StringArrToIntArr(getInput()));
 			Console.Write("Press any key to continue . . . ");
 			Console.ReadKey(true);
-			
+		}
+		
+		public static String[] getInput()
+		{
+			return Console.ReadLine().Split(' ');
+		}
+		
+		public static int[] StringArrToIntArr(String[] value)
+		{
+			int[] result = new int[value.Length];
+			for (int i = 0; i < value.Length; i++) {
+				result[i] = int.Parse(value[i]);
+			}
+			return result;
 		}
 	}
 }

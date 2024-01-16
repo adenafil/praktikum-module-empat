@@ -31,22 +31,26 @@ namespace praktikum_module_4
 		
 		public int getIndexDataOfData(string data)
 		{
-			// logic is here
+			bool found = false;
 			int indexData = -1;
 			int putaranData = 1;
 			this.data.ForEach(e => {
 			                  	if (e.Equals(data))
 			                  	{
-			                  		this.indexData.ForEach(i => {
-//			                  		                       	if (i == putaranData) {
-			                  		                       		Console.WriteLine("ini i" + i + " d = " + putaranData);
-																
-			                  		                       		 indexData = int.Parse(i.ToString());
-//			                  		                       	}
-			                  		                       });
+			                  		found = true;
 			                  	}
-			                  	++putaranData;
+			                  	if (!found) {
+			               			++putaranData;
+			                  	}
 			                  });
+			
+			int menghitungIndex = 1;
+		
+			this.indexData.ForEach(e => {
+			                       	
+			                       	if (putaranData == menghitungIndex) indexData =  int.Parse(e.ToString());
+			                       	menghitungIndex++;
+			                       });
 			
 			return indexData;
 		}
